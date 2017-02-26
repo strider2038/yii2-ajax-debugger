@@ -1,5 +1,23 @@
 # Yii2 Ajax debugger
 
+## Installation
+
+Either run
+
+```
+$ php composer.phar require strider2038/yii2-ajax-debugger "*"
+```
+
+or add
+
+```
+"strider2038/yii2-ajax-debugger": "*"
+```
+
+to the ```require``` section of your `composer.json` file.
+
+## About
+
 This tool is based on [JSONBeautifyIt](https://github.com/strider2038/json-beautify-it) 
 function for formatting JSON/JSONP data. DebugDetector component can intercept JSON or 
 JSONP responses from server and format them as html document. After rendering JSON 
