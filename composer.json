@@ -1,0 +1,22 @@
+{
+    "name": "strider2038/yii2-ajax-debugger",
+    "description": "Handy developer tool for debugging AJAX requests in web browser",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","ajax","debug","developer","developing","tool"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "strider2038",
+            "email": "strider2038@rambler.ru"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/json-beautify-it": "1.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "strider2038\\ajaxdebugger\\": ""
+        }
+    }
+}
