@@ -29,4 +29,6 @@ After that you can open pages with AJAX or API responses in browser. If you
 add GET parameter \_debug=1 you will see parsed JSON data and debug panel as
 on other html pages.
 
+![Yii2 Ajax debugger example](https://raw.githubusercontent.com/strider2038/yii2-ajax-debugger/master/examples/example1.jpg "JSONP response in browser")s
+
 You can see working examples in my Yii2 template - <https://github.com/strider2038/yii2-template/blob/master/controllers/AjaxController.php>
